@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(116, 114, 114);
+}
+
+.container{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.text{
+    align-content: center;
+    transition: 4s transform linear;
+}
+.text:hover{
+    transform: scale(1,2);
+    color: darkturquoise;
+}
+
+.card{
+    border: none;
+    border-radius: 20%;
+}
+
