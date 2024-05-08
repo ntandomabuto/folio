@@ -1,5 +1,6 @@
 body{
     background-color: rgb(116, 114, 114);
+    background-image: image("N.png");
 }
 
 .container{
@@ -8,7 +9,21 @@ body{
     justify-content:space-evenly;
 }
 
+/* .container-fluid{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+} */
 
+/* .gif{
+    translate:inherit;
+} */
+
+.figma{
+    width: 190px;
+    height: 190px;
+    margin-left: 300px;
+}
 
 .text{
     align-content: center;
@@ -25,16 +40,11 @@ body{
     border-radius: 20%;
 }
 
-/* .about{
-    display: grid;
+.containerform{
+    width: 500px;
+    display: flex;
     justify-content: center;
-} */
-/* p{
-    display: grid;
-    flex-direction: column;
-    columns:unset;
-    justify-content: space-around;
-} */
+}
 
 .cap{
     text-align: center;
@@ -51,3 +61,5 @@ p{
 .footer{
     background-color: powderblue;
 }
+
+
