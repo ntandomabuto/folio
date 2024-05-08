@@ -49,6 +49,7 @@ body{
 .cap{
     text-align: center;
     justify-content: center;
+    /* width: 90px; */
     transition: 2s transform linear;
 }
 p{
@@ -62,4 +63,22 @@ p{
     background-color: powderblue;
 }
 
+#download{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 2rex;
+    background-color: white;
+    text-decoration: none;
+    transition: 2s transform linear;
+}
 
+
+#download:hover{
+    background-color: black;
+    color: beige;
+}
+
+.resume{
+    align-items: center;
+    justify-content: center;
+}
