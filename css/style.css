@@ -3,13 +3,16 @@ body{
 }
 
 .container{
+    margin-top: 100px;
     display: flex;
     justify-content:space-evenly;
 }
 
+
+
 .text{
     align-content: center;
-    transition: 4s transform linear;
+    transition: 3s transform linear;
 }
 .text:hover{
     transform: scale(1,2);
@@ -17,7 +20,34 @@ body{
 }
 
 .card{
+    
     border: none;
     border-radius: 20%;
 }
 
+/* .about{
+    display: grid;
+    justify-content: center;
+} */
+/* p{
+    display: grid;
+    flex-direction: column;
+    columns:unset;
+    justify-content: space-around;
+} */
+
+.cap{
+    text-align: center;
+    justify-content: center;
+    transition: 2s transform linear;
+}
+p{
+    text-align: center;
+}
+.cap:hover{
+    color:aquamarine;
+}
+
+.footer{
+    background-color: powderblue;
+}
