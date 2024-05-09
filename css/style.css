@@ -40,16 +40,11 @@ body{
     border-radius: 20%;
 }
 
-.containerform{
-    width: 500px;
-    display: flex;
-    justify-content: center;
-}
+
 
 .cap{
     text-align: center;
     justify-content: center;
-    /* width: 90px; */
     transition: 2s transform linear;
 }
 p{
@@ -78,7 +73,15 @@ p{
     color: beige;
 }
 
+.technical{
+    justify-content: center;
+}
+
 .resume{
     align-items: center;
     justify-content: center;
+}
+
+.card-body{
+    text-align: center;
 }
