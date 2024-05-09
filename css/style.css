@@ -9,6 +9,10 @@ body{
     background-color: rgb(116, 114, 114);
 }
 
+.container-main {
+    overflow: hidden;
+}
+
 nav{
     background-color: rgb(116, 114, 114);
     z-index: 2;
@@ -104,3 +108,19 @@ p{
     background-color: darkturquoise;
 }
 
+/* .contactcontainer{
+    display:flex;
+    flex-direction: column;
+} */
+/* .cont{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+} */
+
+@media screen and (max-width:300px) {
+    body{
+        background-color: chocolate;
+        color: white;
+    }
+}
