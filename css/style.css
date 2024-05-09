@@ -1,8 +1,22 @@
-body{
-    background-color: rgb(116, 114, 114);
-    background-image: image("N.png");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body{
+    background-color: rgb(116, 114, 114);
+}
+
+nav{
+    background-color: rgb(116, 114, 114);
+    z-index: 2;
+}
+
+.nav-item a{
+    color: white;
+}
 .container{
     margin-top: 100px;
     display: flex;
@@ -40,16 +54,11 @@ body{
     border-radius: 20%;
 }
 
-.containerform{
-    width: 500px;
-    display: flex;
-    justify-content: center;
-}
+
 
 .cap{
     text-align: center;
     justify-content: center;
-    /* width: 90px; */
     transition: 2s transform linear;
 }
 p{
@@ -78,7 +87,20 @@ p{
     color: beige;
 }
 
+.technical{
+    justify-content: center;
+}
+
 .resume{
     align-items: center;
     justify-content: center;
 }
+
+.card-body{
+    text-align: center;
+}
+
+.card{
+    background-color: darkturquoise;
+}
+
