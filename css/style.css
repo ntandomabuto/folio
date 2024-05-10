@@ -131,3 +131,18 @@ p{
         color: black;
     }
 }
+
+
+.gif{
+    width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: gif;
+  animation-duration: 2s;  
+  animation-delay: 0;
+  animation-fill-mode: backwards; 
+}
+@keyframes gif{
+    from {left: 0px;}
+  to {left: 400px;}
+}
